@@ -1,0 +1,13 @@
+{
+    "title" : "NEST Fi User Guide",
+    "description": "NEST Fi User Guide",
+    "structure": {
+        "readme": "README.md"
+    },
+    "plugins": ["katex", "-sharing", "github"],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/NEST-Protocol"
+        }
+    }
+}
