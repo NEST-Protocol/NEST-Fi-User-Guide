@@ -10,5 +10,6 @@
     * [Futures](README.md#futures)
     * [Options](README.md#options)
     * [Win](README.md#win)
+    * [Video Guide](README.md#video-guide)
 
 
