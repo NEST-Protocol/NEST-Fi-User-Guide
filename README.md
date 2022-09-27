@@ -70,16 +70,6 @@ After you buy the option successfully, the detail of your position will shows at
 
 ![image11](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG11.png)
 
-### Win
-
-In the WIN game, you can game with NEST network.
-
-1. Adjust the multiplier you want, and the multiplier is related to the winning chance . You should notice that higher multiplier, higher risk. E.g. If the multiplier is 2, the winning chance will be 50%. If the multiplier is 10, the winning chance is 10%.
-2. Adjust your bet amount, you can only use NEST to bet.
-3. Approve and roll. First click the "Approve" button to approve this trade . After you finish the approve, the button will change to "Roll", then click the "Roll" button to play the game. The result will be popup on the page.
-
-![image12](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG12.png)
-
 ### Video Guide
 
 Open futures position on NEST Fi, here is the video guide.
