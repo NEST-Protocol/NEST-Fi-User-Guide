@@ -30,20 +30,19 @@ You can switch to "Swap" tab to exchange between USDT and NEST token. The exchan
 
 ### Futures
 
-You can use NEST to buy ETH/USDT and BTC/USDT futures here, up to 5x leverage.
+You can use NEST to buy ETH/USDT and BTC/USDT futures here, up to 20x leverage.
 
-The following steps show you how to buy futures on NEST Fi:
+We offer you 1X, 2X, 5X, 10X, 15X 20X leverage. The following steps show you how to buy futures on NEST Fi:
 
 1. The market price of token pair is from [NEST Oracle](https://nestprotocol.org/#/docs/NEST-Oracle/Concept.md), a truly decentralized oracle. The opening price varies slightly from the price NEST oracle provides according to risk compensation.
 2. Choose "Long" or "Short", and the leverage you want to use.
 3. Then, input the amount of NEST as collateral for this future, minimum 50 NEST.
-4. Approve and open the position.
-
 ![image7](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG7.png)
-
-After you open the position successfully, the detail of your position will shows at the bottom of the page. You can close your future position at any time you want.
-
+4. The first time you need to approve it successfully before opening the position.
+5. After successfully opening a position, the details of your position will be displayed at the bottom of the page. You can close your future positions at any time.
 ![image8](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG8.png)
+6. You can also use ADD, to increase your position.
+![image12](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG13.png)
 
 ### Options
 
