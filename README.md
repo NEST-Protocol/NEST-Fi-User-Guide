@@ -42,7 +42,7 @@ We offer you 1X, 2X, 5X, 10X, 15X 20X leverage. The following steps show you how
 5. After successfully opening a position, the details of your position will be displayed at the bottom of the page. You can close your future positions at any time.
 ![image8](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG8.png)
 6. You can also use ADD, to increase your position.
-![image12](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG13.png)
+![image12](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG12.png)
 
 ### Options
 
