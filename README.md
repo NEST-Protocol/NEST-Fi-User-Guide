@@ -32,17 +32,130 @@ You can switch to "Swap" tab to exchange between USDT and NEST token. The exchan
 
 You can use NEST to buy ETH/USDT and BTC/USDT futures here, up to 20x leverage.
 
-We offer you 1X, 2X, 5X, 10X, 15X 20X leverage. The following steps show you how to buy futures on NEST Fi:
+We offer you 1X, 2X, 5X, 10X, 15X 20X leverage. The following steps show you how to buy futures on NEST Fi.
 
-1. The market price of token pair is from [NEST Oracle](https://nestprotocol.org/#/docs/NEST-Oracle/Concept.md), a truly decentralized oracle. The opening price varies slightly from the price NEST oracle provides according to risk compensation.
-2. Choose "Long" or "Short", and the leverage you want to use.
-3. Then, input the amount of NEST as collateral for this future, minimum 50 NEST.
+#### Connect your wallet
+
+You can connect your wallet through the "Connect Wallet" button on the page:
 ![image7](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG7.png)
-4. The first time you need to approve it successfully before opening the position.
-5. After successfully opening a position, the details of your position will be displayed at the bottom of the page. You can close your future positions at any time.
+
+#### Token
+
+You need to have NEST tokens in your account to start trading.
+
+It can be exchanged directly on swap: [https://finance.nestprotocol.org/#/swap](https://finance.nestprotocol.org/#/swap)
+
+#### Open a position
+
+Select the token you want to open a position, and check the current market price through NEST oracle, which is a completely decentralized oracle. The opening price will be slightly different from the price provided by the NEST oracle price based on risk compensation.
+
+1. Choose "Long" or "Short", and the leverage you want to use.
+2. Then, select the times of leverage
+3. Input the amount of NEST as collateral for this future, minimum 50 NEST.
+
 ![image8](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG8.png)
-6. You can also use ADD, to increase your position.
+
+4. The first time you need to approve it successfully before opening the position. NESTFi options use 0 slippage to open positions. And opening a position charges 0.2% of the position cost.
+
+While there is no price impact on the transaction, price movements between the time the transaction is submitted and its confirmation on the blockchain can cause slippage.
+
+#### Position management
+
+After successfully opening a position, the details of your position will be displayed at the bottom of the page. You can close your future positions at any time.
+
 ![image12](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG12.png)
+
+You can manage your liquidation price by clicking "Add" to add to the position. A service fee of 0.2% is charged based on the cost of your added position.
+
+![image13](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG13.png)
+
+#### Close a position
+
+You can close all your positions by clicking “Close” button. Once you choose to close, we will charge a 0.2% service fee from you.
+
+![image14](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG14.png)
+
+#### Limit order
+
+You can open the ‘limit order’ to set a specific opening price. This operation will charge a 0.2% service fee and a 15 NEST execution fee.
+
+1. Click “Limit order”.
+2. Then add your opening price to the corresponding “Limit Price”
+3. Once you create this order, we will charge you the principal, service fee, and execution fee in advance.
+4. You can manage your limit orders in the “Order” section.
+5. Once ‘Open Price’ reached the price you set, the protocol will automatically open the position for you.
+
+![image15](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG15.png)
+
+Please note that the following situations may occur, which cause nonexecutable orders.
+
+- The order doesn’t reach the price
+- The specified price is reached but time is insufficient to execute the order
+- There is no executor
+
+Although there is no price impact on the transaction, price movements between the submission of the transaction and its confirmation on the blockchain may result in slippage. Execution at the trigger price is not guaranteed.
+
+#### Limit Order Management
+
+After you have completed your limit orders, you can manage your own limit orders in 'order'.
+
+1. The list is displayed in the ‘order’ and you can change your limit order at any time via "edit"
+2. You can change your opening price without being charged any fees for this process
+3. You can close a limit order before it has been executed by "close", after which we will refund all the fees you have paid at the time of opening the order.
+
+![image16](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG16.png)
+
+#### Stop Loss and Take Profit orders
+
+You can open and close a position at the set price by checking "Stop order" at the same time as placing a market order. A 0.2% service charge on the value of the position and a 15 NEST execution fee will be applied to the stop loss, which will be deducted directly from the margin when the position is closed at the execution price.
+
+1. Turn on "stop order"
+2. Add the price of the close position to the opened trigger
+3. Open the order and we will charge an additional execution fee
+4. You can manage your execution prices in the list of positions
+5. Once the 'Close price' was greater than the price you set, the protocol will automatically close the position
+
+![image17](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG17.png)
+
+Please note that the following situations may occur, which cause nonexecutable orders.
+
+- The order doesn’t reach the price
+- The specified price is reached but time is insufficient to execute the order
+- There is no executor
+
+Although there is no price impact on the transaction, price movements between the submission of the transaction and its confirmation on the blockchain may result in slippage. Execution at the trigger price is not guaranteed.
+
+#### Stop Loss and Take Profit order management
+
+You can manage your limit orders in 'positions' after you have completed them. If you have a market order, you can also add a stop-trigger execution price.
+
+Modifying execution prices
+
+1. The list is displayed in positions and you can change your execution price at any time by using the "edit" button
+
+![image18](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG18.png)
+
+2. Modify the execution price of the close positions, we do not charge any additional fees for this process
+3. The user can close a stop loss order
+
+![image19](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG19.png)
+
+4. When the stop profit and stop loss are not executed, the user actively closes the position, the service fee and execution fee for the stop profit and stop loss will not be refunded
+5. When the stop profit and stop loss are automatically executed, the system will directly deduct the service fee and execution fee from your margin.
+
+#### Create execution price
+
+1. After the market order is opened, you can create your own execution price through the "trigger" at any time
+2. We do not charge fees when creating an execution price. When the execution price is greater than the execution price, the service fee and execution fee will be deducted from your margin.
+
+![image20](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG20.png)
+
+#### Cost
+
+- 0.2% of the position size for opening/closing
+- 0.2% of the position size of limit orders, 15 NEST execution fee
+- 0.2% of the position size of stop orders, 15 NEST execution fee
+
 
 ### Options
 
