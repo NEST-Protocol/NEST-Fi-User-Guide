@@ -153,8 +153,8 @@ Modifying execution prices
 #### Cost
 
 - 0.2% of the position size for opening/closing
-- 0.2% of the position size of limit orders, 15 NEST execution fee
-- 0.2% of the position size of stop orders, 15 NEST execution fee
+- When opening a position with a limit order, besides 0.2% position fee, additional 15 NEST will be charged for the limit order execution.
+- When closing a position with a stop order, besides 0.2% position fee, additional 15 NEST will be charged for the stop loss/take profit order execution.
 
 
 ### Options
