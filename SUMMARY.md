@@ -7,7 +7,6 @@
     * [Connect Wallet](README.md#connect-wallet)
     * [Swap](README.md#swap)
     * [Futures](README.md#futures)
-    * [Options](README.md#options)
-    * [Video Guide](README.md#video-guide)
+    <!-- * [Video Guide](README.md#video-guide) -->
 
 

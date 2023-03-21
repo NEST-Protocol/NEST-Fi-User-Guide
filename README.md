@@ -17,8 +17,7 @@ The NEST protocol can be used for a variety of purposes, including decentralized
 1. Open [NEST Fi official website](https://finance.nestprotocol.org/#/futures), choose the network you want to trade on, e.g. BSC (Binance Smart Contract Chain).
 2. Then click the "Connect Wallet" button to connect to your wallet.
 3. If your balance of NEST is lower than 1, you should use Swap function or buy NEST from exchange to add enough NEST for trading.
-
-- If you have not added NEST token to your wallet, when your mouse hovered on "Balance", the "Add NEST to your wallet" will show, click it and the NEST token will be added to your wallet.
+4. If you have not added NEST token to your wallet, when your mouse hovered on "Balance", the "Add NEST to your wallet" will show, click it and the NEST token will be added to your wallet.
 
 ![image5](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG5.png)
 
@@ -39,7 +38,7 @@ Connect your wallet through the "Connect Wallet" button on the page:
 
 #### Token
 
-You need to have NEST tokens in your account to start trading.
+You need to have NEST tokens in your account to start trading. Orders can also be opened  USDT and we will automatically convert to NEST for you during the process.
 
 You can exchange directly through Swap: [https://finance.nestprotocol.org/#/swap](https://finance.nestprotocol.org/#/swap)
 
@@ -49,7 +48,7 @@ Select the token pair you want to open a position and check the current market p
 
 1. Choose "Long" or "Short" according to your expectation on which side you want to build your position.
 2. Then, select the times of leverage.
-3. Enter the amount to buy futures, and the minimum purchase is 50 $NEST.
+3. Enter the amount to buy futures, and the minimum purchase is 50 $NEST or the equivalent in USDT.
 
 ![image8](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG8.png)
 
@@ -105,7 +104,7 @@ After you have completed your limit orders, you can manage your own limit orders
 
 You can select "Stop order" at the same time when placing an order in the market order, after successful opening a position, it will be automatically closed according to the price you set.
 
-Service fee for Stop Loss and Take Profit orders: 0.1% of the position+15 NEST(execution fee).
+Service fee for Stop Loss and Take Profit orders: 15 NEST(execution fee).
 
 This fee will be deducted directly from the margin when the order is closed.
 
@@ -121,6 +120,9 @@ Short:
 - Market price ≥ Stop Loss  will trigger Stop profit
 
 3. When your order is executed, we will charge an additional execution fee of 15NEST.
+
+![image17](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG21.png)
+
 4. You can manage your orders in the Positions list.
 5. You also click the “Trigger” in the Positions list to open Stop loss and Take profit.
 
@@ -137,13 +139,11 @@ Please note that the following situations may occur and the order will not be ex
 You can manage your Stop loss and Take profit orders in 'Positions' after you have completed the orders.
 
 1. Click “Positions” to check your Stop Loss and Take Profit orders information.
-
-![image18](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG18.png)
-
 2. Click "Edit" to change Stop Loss and Take Profit price, and no service fee for this process.
 3. Click "Close" to close the Stop Loss and Take Profit order.
 
-![image19](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG19.png)
+![image18](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG18.png)
+
 4. When the Stop Loss and Take Profit order is not automatically executed, if the user actively closes the order, the execution fee will not be deducted.
 5. When the Stop Loss and Take Profit order is automatically executed, the system will directly deduct the service fee and execution fee from your deposit.
 
@@ -152,10 +152,9 @@ You can manage your Stop loss and Take profit orders in 'Positions' after you ha
 Create Stop Loss and Take Profit order after opening a position： If you have a market order, you can click “Edit” to add the price.
 
 1. After the market order is opened, you can create the Stop Loss and Take Profit order by clicking the "Trigger".
+2. No fee will be charged when editing the market order to Stop Loss and Take Profit order. When the Stop Loss and Take Profit orders are automatically executed, the service fee and execution fee will be deducted from your margin.
 
 ![image20](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG20.png)
-
-2. No fee will be charged when editing the market order to Stop Loss and Take Profit order. When the Stop Loss and Take Profit orders are automatically executed, the service fee and execution fee will be deducted from your margin.
 
 #### Futures service fee
 
@@ -163,8 +162,8 @@ Create Stop Loss and Take Profit order after opening a position： If you have a
 - 0.1% of the position size of the limit order + 15 NEST execution fee.
 - 0.1% of the position size of Stop Loss and Take Profit order + 15 NEST execution fee.
 
-### Video Guide
+<!-- ### Video Guide
 
 Open futures position on NEST Fi, here is the video guide.
 
-<video src="./Image/UserGuide-Future.mov" controls="controls" width="600" height="400"></video>
+<video src="./Image/UserGuide-Future.mov" controls="controls" width="600" height="400"></video> -->
