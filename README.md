@@ -38,7 +38,7 @@ Connect your wallet through the "Connect Wallet" button on the page:
 
 #### Token
 
-You need to have NEST tokens in your account to start trading. Orders can also be opened  USDT and we will automatically convert to NEST for you during the process.
+You need to have NEST tokens in your account to start trading. Orders can also be opened USDT and we will automatically convert to NEST for you during the process.
 
 You can exchange directly through Swap: [https://finance.nestprotocol.org/#/swap](https://finance.nestprotocol.org/#/swap)
 
@@ -53,7 +53,7 @@ Select the token pair you want to open a position and check the current market p
 ![image8](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG8.png)
 
 4. You need to approve it successfully before opening the position for the first time.
-5. Service fee for opening positions: 0.1% of the position.
+5. Service fee for opening positions: 0.05% of the position.
 
 #### Position management
 
@@ -68,13 +68,13 @@ You can manage your liquidation price by clicking "Add" to add margin. There is 
 #### Close a position
 
 1. You can close all your positions by clicking the “Close” button.
-2. Service fee for closing: 0.1% of the position.
+2. Service fee for closing: 0.05% of the position.
 
 ![image14](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG14.png)
 
 #### Limit order
 
-You can click the ‘Limit order’ to set a specific opening price. Service fee for Limit order: 0.1% of the position+15 NEST(execution fee).
+You can click the ‘Limit order’ to set a specific opening price. Service fee for Limit order: 0.05% of the position+15 NEST(execution fee).
 
 1. Click “Limit order”.
 2. In the expanded menu, Limit Price, adds the price for opening a position.
@@ -109,15 +109,17 @@ Service fee for Stop Loss and Take Profit orders: 15 NEST(execution fee).
 This fee will be deducted directly from the margin when the order is closed.
 
 1. Click "Stop order".
-2.  In the expanded menu, “Take Profit” and “Stop Loss” adds the price for closing a position.
+2. In the expanded menu, “Take Profit” and “Stop Loss” adds the price for closing a position.
 
 Long:
-- Market price ≥ Take Profit  will trigger Take profit
-- Market price ≤ Stop Loss  will trigger Stop profit
 
-Short:  
-- Market price ≤  Take Profit  will trigger Take profit
-- Market price ≥ Stop Loss  will trigger Stop profit
+- Market price ≥ Take Profit will trigger Take profit
+- Market price ≤ Stop Loss will trigger Stop profit
+
+Short:
+
+- Market price ≤ Take Profit will trigger Take profit
+- Market price ≥ Stop Loss will trigger Stop profit
 
 3. When your order is executed, we will charge an additional execution fee of 15NEST.
 
@@ -158,9 +160,20 @@ Create Stop Loss and Take Profit order after opening a position： If you have a
 
 #### Futures service fee
 
-- 0.1% of the position size for opening/closing
-- 0.1% of the position size of the limit order + 15 NEST execution fee.
-- 0.1% of the position size of Stop Loss and Take Profit order + 15 NEST execution fee.
+- 0.05% of the position size for opening/closing.
+- limit order 15 NEST execution fee.
+- Stop Loss and Take Profit order + 15 NEST execution fee.
+
+#### Price Slippage
+
+- Position<100,000NEST: 0 slippage.
+- Position >= 100,000NEST:
+  If position = 1,000,000NEST, 0.05% slippage;If position = 10,000,000NEST, 0.1% slippage(slippage increases linearly).
+
+#### Base interest rate
+
+- 0.03% per day
+- 0.0000003472% per second
 
 <!-- ### Video Guide
 
