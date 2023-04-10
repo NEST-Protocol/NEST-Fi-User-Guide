@@ -55,6 +55,10 @@ Select the token pair you want to open a position and check the current market p
 4. You need to approve it successfully before opening the position for the first time.
 5. Service fee for opening positions: 0.05% of the position.
 
+Entry Price: this is not the opening price, because the characteristics of the blockchain will eventually have some deviations from the open price.
+
+Liq Price: Due to the market volatility, the actual liquidation price may be different from the theoretical liquidation price . Here is the theoretical liquidation price, for reference only.
+
 #### Position management
 
 After successfully opening a position, the information of your position will be displayed at the bottom. You can close your future positions at any time.
@@ -64,6 +68,10 @@ After successfully opening a position, the information of your position will be 
 You can manage your liquidation price by clicking "Add" to add margin. There is no service fee for margin calls.
 
 ![image13](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG13.png)
+
+Base interest rate 
+- 0.03%  per day
+- 0.0000003472% per second
 
 #### Close a position
 
@@ -99,6 +107,10 @@ After you have completed your limit orders, you can manage your own limit orders
 3. You can close a limit order before it has been executed by "Close", after which we will refund all the fees you have paid at the time of opening the position.
 
 ![image16](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG16.png)
+
+Limit Order Execution Conditions
+- Long:  triggered when market price <= limit price 
+- Short: triggered when market price >= limit price 
 
 #### Stop Loss and Take Profit orders
 
@@ -163,17 +175,6 @@ Create Stop Loss and Take Profit order after opening a position： If you have a
 - 0.05% of the position size for opening/closing.
 - limit order 15 NEST execution fee.
 - Stop Loss and Take Profit order + 15 NEST execution fee.
-
-#### Price Slippage
-
-- Position<100,000NEST: 0 slippage.
-- Position >= 100,000NEST:
-  If position = 1,000,000NEST, 0.05% slippage;If position = 10,000,000NEST, 0.1% slippage(slippage increases linearly).
-
-#### Base interest rate
-
-- 0.03% per day
-- 0.0000003472% per second
 
 <!-- ### Video Guide
 
