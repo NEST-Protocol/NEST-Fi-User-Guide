@@ -29,7 +29,7 @@ You can switch to "Swap" tab to exchange between USDT and NEST token. The exchan
 
 ### Futures
 
-You can use $NEST to buy ETH/USDT and BTC/USDT futures here, with up to 50X leverage. We offer you 1-50 times leverage. The following steps show you how to buy futures on NEST Fi.
+You can use $NEST to buy ETH/USDT, BTC/USDT, BNB/USDT, MATIC/USDT, ADA/USDT, ADA/USDT, XRP/USD futures here, with up to 50X leverage. We offer you 1-50 times leverage. The following steps show you how to buy futures on NEST Fi.
 
 #### Connect your wallet
 
@@ -69,9 +69,9 @@ You can manage your liquidation price by clicking "Add" to add margin. There is 
 
 ![image13](https://raw.githubusercontent.com/NEST-Protocol/NEST-Fi-User-Guide/main/Image/NFUG13.png)
 
-Base interest rate 
-- 0.03%  per day
-- 0.0000003472% per second
+Daily base interest rate:
+- BTC/USDT, ETH/USDT 0.03% 
+- BNB/USDT, MATIC/USDT,ADA/USDT,ADA/USDT,XRP/USDT 0.05%
 
 #### Close a position
 

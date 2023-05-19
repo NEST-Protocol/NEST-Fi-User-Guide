@@ -1,7 +1,7 @@
 # Summary
 
 * [Concept](README.md#concept)
-    * [NEST Probability Virtual Machine](README.md#nest-probability-virtual-machine)
+    * [What is NEST Protocol](README.md#what-is-nest-protocol)
 
 * [How to Play](README.md#how-to-play)
     * [Connect Wallet](README.md#connect-wallet)
